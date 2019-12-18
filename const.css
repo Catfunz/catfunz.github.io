@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "default";
+    src: url(/css/fonts/Patrick_Hand/PatrickHand-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "title";
+    src: url(/css/fonts/Bowlby_One_SC/BowlbyOneSC-Regular.ttf) format("truetype");
+}
+body {
+  margin: 0px;
+  background-color: #ffbf5e;
+  overscroll-behavior: none;
+  font-family: 'default',sans-serif;
+}
+.title {
+  background-color: #ff9900;
+  border-style: solid;
+  border-color: black;
+}
+.title-text {
+  margin: auto;
+  text-align: center;
+  font-size: 200%;
+  font-family: "title",sans-serif;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+}
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+.nav-button {
+  background-color: #ff9900;
+  border-style: solid;
+  border-color: black;
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.content {
+  padding: 50px;
+}
+.footer img {
+  width: 50px;
+  transition: transform 0.5s;
+}
+.footer img:hover {
+  transform: scale(1.5);
+}
+.footer p {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+a.link {
+  color: black;
+  text-decoration: none;
+}
+a.link:hover {
+  text-decoration: underline;
+}
+.icon-link {
+  width: 50px;
+}
