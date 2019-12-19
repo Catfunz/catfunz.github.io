@@ -11,7 +11,7 @@
 
 document.querySelector(".header").innerHTML = `
 <div class="title">
-  <p class="title-text">Catfunz</p>
+  <p class="title-text">Catfun</p>
 </div>`;
 
 document.querySelector(".navbar").innerHTML = `

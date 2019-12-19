@@ -68,5 +68,9 @@ a.link:hover {
   text-decoration: underline;
 }
 .icon-link {
-  width: 50px;
+  width: 100px;
+  transition: transform 1s;
+}
+.icon-link:hover {
+  transform: scale(1.3);
 }
