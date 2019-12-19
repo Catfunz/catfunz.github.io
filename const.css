@@ -16,6 +16,7 @@ body {
   background-color: #ff9900;
   border-style: solid;
   border-color: black;
+  border-width: 3px;
 }
 .title-text {
   margin: auto;
@@ -40,11 +41,14 @@ body {
   border-color: black;
   border-top: none;
   border-radius: 0px 0px 10px 10px;
+  border-width: 3px;
   text-decoration: none;
   color: black;
   padding: 5px;
   font-size: 25px;
   letter-spacing: 2px;
+  position: relative;
+  top: -3px;
 }
 .content {
   padding: 50px;
