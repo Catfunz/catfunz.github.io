@@ -49,6 +49,16 @@ body {
   letter-spacing: 2px;
   position: relative;
   top: -3px;
+  transition: transform 0.5s;
+  transform-origin: top;
+}
+.nav-button:hover {
+  transition: transform 0.5s;
+  transform: scale(1.2);
+}
+.nav-button:active {
+  transition: transform 0.15s;
+  transform: scale(0.9);
 }
 .content {
   padding: 50px;
