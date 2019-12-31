@@ -23,6 +23,6 @@ document.querySelector(".navbar").innerHTML = `
 
 document.querySelector(".footer").innerHTML = `
 <center>
-  <p><a class="gp5-logo" href="https://gamepro5.github.io"><img src="https://gamepro5.github.io/images/gamepro5.svg"></a></p>
+  <p><a class="gp5-logo" href="https://gamepro5.com"><img src="https://gamepro5.com/images/gamepro5.svg"></a></p>
   <p>Website made by Gamepro5.</p>
 </center>`;
